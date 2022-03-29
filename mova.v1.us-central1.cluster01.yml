@@ -33,6 +33,8 @@ resources:
       config:
         ## different machine type
         machineType: "g1-small"
+        tags:
+        items: ["http-server-teste"] 
         metadata : 
           "block-project-ssh-keys": "true" 
 ## scopes can be changed as well
