@@ -34,7 +34,7 @@ resources:
         ## different machine type
         machineType: "g1-small"
         tags:
-        items: ["http-server-teste"] 
+          "http-server-teste"
         metadata : 
           "block-project-ssh-keys": "true" 
 ## scopes can be changed as well
@@ -43,4 +43,3 @@ resources:
           - https://www.googleapis.com/auth/monitoring
           - https://www.googleapis.com/auth/ndev.clouddns.readwrite
         preemptible: false
-        
